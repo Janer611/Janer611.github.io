@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        h1 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+   
+ <!-- <img src="./mor75.png" 
+ alt="mor75"
+ height="600 %"
+ width="500 %"> -->
+
+ <div class= "box" id="box">
+    <p>
+        <a href="#" id="jhg">asdfasdf</a>
+    </p>
+    <a class="qwe" href="http">qwerqwer</a>
+ </div>
+
+
+ <h1>Hello Motherfuckers</h1>
+ <script>
+    const box = document.getElementById('box')
+    //console.log(box)
+    window.addEventListener('scroll', (e) => {
+        //console.log(window.scrollY)
+        box.style.backgroundPosition = `center ${ (window.scrollY * 0.12) * -1 }px`
+
+    })
+ </script>
+ 
+</body>
+</html>

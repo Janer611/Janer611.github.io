@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(162, 194, 214); */
+    font-size: 20px;
+    
+     
+    margin: 0;
+    padding: 32px;
+    width: 100vh; 
+    height: 100vh;
+    background: url(../images/1.jpeg) no-repeat top center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+h1{
+   text-transform: uppercase; 
+}
+ul{
+    list-style: none;
+    list-style-position: outside;
+}
+/* li.watch{
+    background-image: url("son22.png");
+    padding-left: 20px;
+    padding-top: 3px;
+    background-size: 15px;
+    left: 0px;
+    top: 0px;
+    background-repeat: no-repeat;} */
+
+    .div1 {
+background-color: aliceblue;
+line-height: 32px;
+width: 350px;
+    }
+
+.div2{
+
+
+    padding-bottom: none;
+    padding-left: 80%;
+}
+
+.div3 {
+
+   padding-top: 50%;
+   padding-left: 80%;
+  
+   
+  
+}
+
+
+
+    
